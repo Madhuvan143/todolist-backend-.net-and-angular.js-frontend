@@ -5,7 +5,7 @@ and about TodoApp.UI .. here is the google drive link to download TodoApp.UI:  h
 extract all the file in respected folder ....open the TodoApp.API in Visual Studio and open the TodoApp.UI in VS Code and for backend SQL Server is need .. 
 I prefer to download Microsoft SQL Server 2022  and SQL Server Management Studio (SSMS)... and create connection with device name.. and
 after that open the TodoApp.API in Visual Studio... 
-go to file appsettings.json .. here update the server name with your connection name which you used in SSMS to create connection
+go to file appsettings.json .. here update the server name with your connection name which you used in SSMS to create connection and then 
 Go to Tools>>NuGet Package Manager>>Package Manager Console.. Type Update-Database.. then database will be connected to .net.. and then run the code in a browser
 after that open TodoApp.UI and create new terminal(powershell or cmd) if you installed angular.js you can type ... ng serve -o
 ..
